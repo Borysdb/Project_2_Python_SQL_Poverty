@@ -22,20 +22,23 @@ Our Goals:
 
 Get the data through API Wrapper with Python.
 https://data.worldbank.org/
-4 tables as variables
-GDP per capita per country($);
-Expenditure on health care (%);
-Unemployment rate (%);
-Violence (per 100.000 people).
- LEFT JOIN on MySQL to get our poverty indicator.
-Exporting data of an external indicator.
+Get 4 tables as variables:
+- GDP per capita per country($);
+- Expenditure on health care (%);
+- Unemployment rate (%);
+- Violence (per 100.000 people).
+ 
+Use LEFT JOIN on MySQL to get our internal poverty indicator.
+
+We get data form OECD about external indicator.
 https://data.oecd.org/inequality/poverty-rate.htm
-LEFT JOIN on MySQL to have a table with both:
+
+Use LEFT JOIN on MySQL to have a table with both:
 internal_poverty_indicator
 external_poverty_indicator
 
+Our indicator algorithm:
 poverty = - GDP - Health + Unemploy + Violence
-
 x1 = (x-min(x))/(max(x)-min(x))  || To normalize values.
 
 ## Workflow
