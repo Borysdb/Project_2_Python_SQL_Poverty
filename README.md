@@ -59,5 +59,5 @@ We have used:
 
 ## Links
 
-[Repository](https://github.com/Borysdb/Project_2_Python_SQL_Poverty.git))
+[Repository](https://github.com/Borysdb/Project_2_Python_SQL_Poverty.git)
 [Slides](https://docs.google.com/presentation/d/1Pk-ncCLN4VEUqhV0i_fegl1On6bcxgd0GCyXWudoFEk/edit?usp=sharing)
